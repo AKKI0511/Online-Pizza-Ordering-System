@@ -49,6 +49,7 @@ This application facilitates online ordering for Quickbite’s Pizza store, offe
    python manage.py runserver
    ```
 
+
 ### Frontend Setup
 
 1. **Navigate to the frontend directory:**
@@ -64,6 +65,20 @@ This application facilitates online ordering for Quickbite’s Pizza store, offe
 3. **Start the React development server:**
    ```bash
    npm start
+   ```
+
+
+## Stripe API Setup
+
+1. Navigate to backend/backend/settings.py
+   ```bash
+   STRIPE_SECRET_KEY = '[YOUR STRIPE SECRET KEY]'
+   STRIPE_PUBLISHABLE_KEY = '[YOUR STRIPE PUBLIC KEY]'
+
+   ```
+2. Navigate to frontend/src/constants.js
+   ```bash
+   export const STRIPE_PUBLIC_KEY = '[YOUR STRIPE PUBLIC KEY]';
    ```
 
 ## Models Documentation
