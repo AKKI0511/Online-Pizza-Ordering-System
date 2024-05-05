@@ -167,6 +167,11 @@ This application facilitates online ordering for Quickbite’s Pizza store, offe
 - `/api/orderitems/` - POST for adding new order items, DELETE for removing items.
 - `/api/charge/` - POST for payments using Stripe
 
+## Admin Panel
+![Screenshot 2024-05-05 014537](https://github.com/AKKI0511/Online-Pizza-Ordering-System/assets/120317569/6262e93a-8231-49db-80e2-854cea385548)
+
+![image](https://github.com/AKKI0511/Online-Pizza-Ordering-System/assets/120317569/7ed287e2-7305-401f-bb84-1249b3888bcf)
+
 ## Security Measures
 
 - Utilizes JWT for secure authentication across all endpoints.
